@@ -46,3 +46,51 @@ footer {
     padding: 1.5rem;
     margin-top: auto;           /* pushes footer to bottom when content is short */
 }
+
+/* 1. Beautiful Gradient Header */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-bottom: 4px solid #ffd700;
+}
+
+/* 2. Logo Styling – Big, Bold, Animated */
+.logo {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* 3. Article & Aside – Different Colors + Borders */
+article {
+    background: #f8fff8;
+    border-left: 6px solid #4caf50;
+    padding: 2rem;
+}
+
+aside {
+    background: #f0f8ff;
+    border-right: 6px solid #2196f3;
+    padding: 2rem;
+}
+
+/* 4. Footer – Dark & Elegant */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-top: 4px solid #ffd700;
+}
+
+/* 5. Hover Effects on Links */
+a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
